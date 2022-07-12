@@ -1,0 +1,58 @@
+body {
+    width: auto;
+    background-color: rgb(221, 217, 151);
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(209, 138, 52);
+}
+
+.topnav {
+    background-color: rgb(209, 138, 52);
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: black;
+    border-radius: 15px;
+}
+
+.topnav a.active {
+    background-color: #9b613a;
+    color: white;
+}
+
+.topnav-right {
+    float: right;
+}
+
+#srch {
+    padding: 4px;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+    background-color: rgb(203, 213, 184);
+}
+
+p {
+    color: aliceblue;
+}
