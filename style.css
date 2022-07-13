@@ -1,6 +1,6 @@
 body {
     width: auto;
-    background-color: rgb(221, 217, 151);
+    background-color: lavender;
 }
 
 header {
@@ -10,6 +10,9 @@ header {
     font-weight: bolder;
 }
 
+#brand {
+    text-shadow: 2px 2px 5px black;
+}
 
 a {
     text-decoration: none;
@@ -55,4 +58,44 @@ a {
 
 p {
     color: aliceblue;
+}
+
+#profileimg {
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+}
+
+.about {
+    color: #402513;
+    letter-spacing: 1px;
+}
+
+
+.leftdiv {
+    display: grid; 
+    grid-template-rows: 1fr; 
+    float: left;
+    grid-gap: 20px; 
+    /*border: 1px solid black;*/
+    max-width:45%; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1rem;
+}
+
+.rightdiv {
+    display: grid;
+    grid-template-rows: 1fr;
+    float: right;
+    grid-gap: 20px;
+    /*border: 1px solid black;*/
+    max-width: 45%; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1rem;
+}
+
+.image {
+    width: 600px;
+    height: 300px;
 }
