@@ -11,7 +11,10 @@ header {
 }
 
 #brand {
+    color: rgb(209, 138, 52);
     text-shadow: 2px 2px 5px black;
+    margin: 15px;
+    width: 400px;
 }
 
 a {
@@ -56,9 +59,6 @@ a {
     background-color: rgb(203, 213, 184);
 }
 
-p {
-    color: aliceblue;
-}
 
 #profileimg {
     border-radius: 20px;
@@ -74,12 +74,12 @@ p {
 
 
 .leftdiv {
-    display: grid; 
-    grid-template-rows: 1fr; 
+    display: grid;
+    grid-template-rows: 1fr;
     float: left;
-    grid-gap: 20px; 
+    grid-gap: 20px;
     /*border: 1px solid black;*/
-    max-width:45%; 
+    max-width: 45%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 1rem;
 }
@@ -90,7 +90,7 @@ p {
     float: right;
     grid-gap: 20px;
     /*border: 1px solid black;*/
-    max-width: 45%; 
+    max-width: 45%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 1rem;
 }
@@ -98,4 +98,62 @@ p {
 .image {
     width: 600px;
     height: 300px;
+}
+
+
+.w3-tangerine {
+    font-family: "Tangerine", serif;
+    font-weight: bolder;
+}
+
+.container1,
+.container2,
+.container3 {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    /*border: 1px solid black;*/
+}
+
+.shopone,
+.shoptwo,
+.shopthree {
+    /*border: 1px solid black;*/
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+img {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 20px;
+
+}
+
+.button {
+    border: none;
+    border-radius: 15px;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 16px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.button1 {
+    color: black;
+    border: 2px solid #555555;
+}
+
+.button1:hover {
+    background-color: #555555;
+    color: white;
 }
